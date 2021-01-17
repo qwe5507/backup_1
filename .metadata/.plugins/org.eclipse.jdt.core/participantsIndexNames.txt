@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+D:\spring\basic\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3617048702.index
+\vatamin_project\src\main\java
+D:\spring\basic\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\159788492.index
+\vatamin\src\main\java
+D:\spring\basic\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4142476484.index
+\vitamin_02\src\main\java
+D:\spring\basic\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2032573666.index
+\vitamin\src\main\java

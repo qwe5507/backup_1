@@ -1,0 +1,12 @@
+package aop2_xml_order;
+
+import org.aspectj.lang.JoinPoint;
+
+public class LoggingSample {
+	public void before(JoinPoint point) throws Throwable{
+		String methodName = point.getSignature().getName();
+		System.out.println("[**********before사전작업 ] :" + methodName);
+		
+	}
+	
+}

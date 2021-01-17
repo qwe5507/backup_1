@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=aDI/src=/optional=/true=/=/maven.pomderived=/true=/&lt;ex1_xml1{MessageBean.java[MessageBean" modifiers="513" timestamp="1607651601548"/>
+<typeInfo handle="=cAOP/C:\/Users\/kosmo_11\/.m2\/repository\/org\/aspectj\/aspectjweaver\/1.9.2\/aspectjweaver-1.9.2.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.aspectj=/=/maven.artifactId=/aspectjweaver=/=/maven.version=/1.9.2=/=/maven.scope=/compile=/&lt;org.aspectj.weaver(Member.class[Member" modifiers="1537" timestamp="1607912265877"/>
+<typeInfo handle="=cAOP/src=/optional=/true=/=/maven.pomderived=/true=/&lt;aop2_xml_order{MemberService.java[MemberService" modifiers="513" timestamp="1607917455952"/>
+<typeInfo handle="=cAOP/C:\/java\/jdk_1.8_open\/jre\/lib\/rt.jar=/maven.pomderived=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/javase\/8\/docs\/api\/=/&lt;java.lang.reflect(Member.class[Member" modifiers="1537" timestamp="1595896902000"/>
+</typeInfoHistroy>

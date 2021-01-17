@@ -1,0 +1,16 @@
+package board.impl;
+
+import org.mybatis.spring.SqlSessionTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+@Repository("empDAO")
+public class EmpDAOImpl { //자동객체명 : empDAOImpl
+	
+	@Autowired
+	private SqlSessionTemplate sqlSession;
+	
+	public List<HashMap> selectEmp() {
+		return sqlSession.selectList();
+	}
+}

@@ -1,0 +1,20 @@
+package aop1_xml;
+
+public class MessageBeanImpl implements MessageBean{
+
+	@Override
+	public void sayHello() {
+		
+	}
+
+	@Override
+	public void engSayHello() {
+		
+	}
+
+	@Override
+	public void test() {
+		
+	}
+
+}

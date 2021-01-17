@@ -1,0 +1,10 @@
+package board.impl;
+
+import org.springframework.stereotype.Service;
+
+@Service("empService")
+public class EmpServiceImpl { //자동변수명 : empServiceImpl
+	
+	private EmpDAOImpl empDAO;
+	
+}

@@ -1,0 +1,12 @@
+package board.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service("empService")
+public class EmpServiceImpl { //자동변수명 : empServiceImpl
+	
+	@Autowired
+	private EmpDAOImpl empDAO;
+	
+}

@@ -1,0 +1,17 @@
+package aop2_xml_order;
+
+public class MemberServiceImpl implements MemberService {
+
+	@Override
+	public void register() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public boolean update(String memberId) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

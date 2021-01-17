@@ -1,0 +1,10 @@
+package aop1_xml;
+
+import org.aspectj.lang.JoinPoint;
+
+public class loggingAdvice {
+	public void before(JoinPoint point) throws Throwable{
+		String methodName = point.getSignature().getName();
+		System.out.println("[************* 사전작업 ]");
+	}
+}

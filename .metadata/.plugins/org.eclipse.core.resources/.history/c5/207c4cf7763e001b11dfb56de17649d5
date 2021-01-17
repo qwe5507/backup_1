@@ -1,0 +1,5 @@
+package board.impl;
+
+public class EmpServiceImpl {
+
+}

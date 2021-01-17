@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="ex1_xml1.MessageBeanImpl"/>
+<fullyQualifiedTypeName name="ex1_xml1.MessageBeanKoImpl"/>
+<fullyQualifiedTypeName name="ex1_xml1.MessageBean"/>
+<fullyQualifiedTypeName name="ex1_xml2_ref.MemberDAO"/>
+<fullyQualifiedTypeName name="ex1_xml3_pvalue.MemberDAO"/>
+<fullyQualifiedTypeName name="ex3_autowiring.MessageBean"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Required"/>
+<fullyQualifiedTypeName name="ex3_autowiring.Outputer"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+<fullyQualifiedTypeName name="javax.annotation.Resource"/>
+<fullyQualifiedTypeName name="aop1_xml.MainApp"/>
+<fullyQualifiedTypeName name="aop1_xml.MessageBean"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.ProceedingJoinPoint"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="aop2_xml_order.MemberService"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.annotation.Aspect"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.annotation.Around"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.annotation.Before"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.annotation.After"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+<fullyQualifiedTypeName name="org.mybatis.spring.SqlSessionTemplate"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+<fullyQualifiedTypeName name="board.impl.EmpDAOImpl"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="board.impl.EmpServiceImpl"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+</qualifiedTypeNameHistroy>
