@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--  빈생성 -->
+<!--  
+import ex1_xml2_ref.MemberBean;
+MemberBean member = new MemberBean(); -->
+
+<!--   1.기본값 지정 (value 지정)
+		(1) setter 이용 
+-->
+<bean id = 'member' class = "ex1_xml2_ref.MemberBean">
+	<property name="name" value="홍길동"></property>	<!-- member.setName(value값) -->	
+	<property name="age" ><value>33</value></property>		
+	<property name="message" value = "오늘도 화이팅!!"></property>		
+</bean>
+
+
+<!--   1.기본값 지정 (value 지정)
+		(2) 생성자 이용 -->
+<bean id='member2' class ="ex1_xml2_ref.MemberBean" scope= "prototype">
+	<constructor-arg value = '홍굴자'></constructor-arg>
+	<constructor-arg><value>23</value></constructor-arg>
+	<constructor-arg value = '주말에 집밖에 나오지 않기'></constructor-arg>
+</bean>
+
+<!--  2. 참조형 지정 (ref 지정) 
+	(1) setter 이용 
+-->
+<bean id ='dao' class = "ex1_xml2_ref.MemberDAO">
+	<property name= "member" ref='member'></property> <!-- setMember() -->
+</bean>
+
+<!--  2. 참조형 지정 (ref지정)
+	(2) constructor 이용  
+ -->
+<bean id ='dao2' class = "ex1_xml2_ref.MemberDAO">
+	<constructor-arg ref = 'member2'></constructor-arg>
+</bean>
+ 
+
+</beans>
+
+<!--  applicationContext.xml -->
